@@ -1,9 +1,7 @@
-Here's a README file to explain the process of converting Python files into a Jupyter Notebook using various methods:
 
 
----
 
-Python File to Jupyter Notebook Conversion
+# Python File to Jupyter Notebook Conversion
 
 This README provides instructions for converting Python files (.py) into Jupyter Notebooks (.ipynb). Three methods are outlined below: using a Python script, manually using the Jupyter Notebook interface, and using jupytext, a command-line tool.
 
@@ -102,4 +100,11 @@ jupytext --to notebook file2.py
 2. To combine the contents, you can manually open the resulting .ipynb files in Jupyter and copy the cells into a single notebook.
 
 
+
+
+---
+
+License
+
+This code and documentation are open-source and available for use under the MIT License.
 
