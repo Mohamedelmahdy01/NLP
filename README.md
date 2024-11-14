@@ -1,7 +1,7 @@
 
 # NLTK Reuters Corpus and Text Normalization
 
-This project includes two main scripts that work with text data. The first script extracts information from the NLTK Reuters Corpus, while the second script demonstrates text normalization techniques such as tokenization, stop word removal, stemming, and lemmatization.
+This project includes two main Tasks that work with text data. The first task extracts information from the NLTK Reuters Corpus, while the second task demonstrates text normalization techniques such as tokenization, stop word removal, stemming, and lemmatization.
 
 ## Requirements
 
@@ -29,7 +29,7 @@ This script performs the following tasks:
 
 **Usage**:
 
-Run the script to display a DataFrame of Reuters data and print statistics for each document.
+Run the File to display a DataFrame of Reuters data and print statistics for each document.
 
 ```python
 python reuters_data_processing.py
@@ -37,7 +37,7 @@ python reuters_data_processing.py
 
 ### File 2: `text_normalization.py`
 
-This script provides a function to normalize text, performing the following steps:
+This file provides a function to normalize text, performing the following steps:
 
 1. **Segmentation**: Splits the input text into sentences.
 2. **Tokenization**: Breaks each sentence into individual words.
@@ -52,14 +52,14 @@ This script provides a function to normalize text, performing the following step
 python text_normalization.py
 ```
 
-The script includes a sample text, `"Dr. Smith went to the U.S. She's a great doctor!"`, which it normalizes and prints as output.
+The file includes a sample text, `"Dr. Smith went to the U.S. She's a great doctor!"`, which it normalizes and prints as output.
 
 **Output**:
 
 The normalized text will appear in the console as a list of sentences with processed words.
 
-## Running the Scripts
+## Running the Tasks
 
 1. **Ensure NLTK Resources are Downloaded**: If running for the first time, ensure you download the necessary NLTK resources by following the download instructions in each script.
    
-2. **Execute Each Script Separately**: Run `reuters_data_processing.py` to explore Reuters data and `text_normalization.py` to normalize example text.
+2. **Execute Each task Separately**: Run `reuters_data_processing.py` to explore Reuters data and `text_normalization.py` to normalize example text.
