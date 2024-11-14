@@ -58,7 +58,7 @@ The file includes a sample text, `"Dr. Smith went to the U.S. She's a great doct
 
 The normalized text will appear in the console as a list of sentences with processed words.
 
-## Running the Tasks
+## Running Tasks
 
 1. **Ensure NLTK Resources are Downloaded**: If running for the first time, ensure you download the necessary NLTK resources by following the download instructions in each script.
    
